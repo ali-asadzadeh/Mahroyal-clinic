@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'IranSans';
+    src: url('../fonts/IranSans/IRANSansWeb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'IranSans';
+    background: radial-gradient(circle, rgba(207,226,255,1) 0%, rgba(231,238,249,1) 15%, rgba(207,226,255,1) 30%, rgba(231,238,249,1) 45%, rgba(207,226,255,1) 60%, rgba(231,238,249,1) 75%, rgba(207,226,255,1) 90%, rgba(231,238,249,1) 100%);
+    background-size: 100% 100%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+p {
+    text-align: justify;
+}
+header nav a:hover{
+    color: #0067ff !important;
+    transition: 0.5s !important;
+}
+.my_slider .owl-nav{
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.owl-nav .owl-prev:hover, .owl-next:hover {
+    background: none !important;
+    outline: none !important;
+}
+.owl-stage-outer {
+    transform: translateY(10px) !important;
+}
+main .swiper-card:hover {
+    background: linear-gradient(169.05deg, #6EA8FE 6.74%, #0D6EFD 71.74%), linear-gradient(0deg, #EDEDED, #EDEDED);
+    color: white;
+    border: 0;
+}
+main .swiper-card .card-text {
+    display: none;
+}
+main .swiper-card:hover path {
+    fill: white;
+}
+main #lightbox{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+main #lightbox-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%; max-height: 90%;
+}
+main .post{
+    border-radius: 20px !important;
+}
+main .post .card-img-top{
+    border-radius: 20px !important;
+}
+
+footer {
+    background-color: #070F56;
+}
+footer section:nth-child(1) div.container:nth-child(1) {
+    background-color: #FFFFFF1A;
+}
+footer .form-control {
+    background: transparent;
+    color: inherit;
+}
+footer input.form-control::placeholder {
+    color: white;
+}
+footer .form-control:focus-within {
+    background: inherit;
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    outline: none;
+}
+footer a:hover{
+    color: #6EA8FE !important;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+footer section:last-child {
+    background-color: #FFFFFF1A;
+}
+.bg-sky-blue{
+    background-color: #CFE2FF;
+}
+@media only screen and (max-width: 1000px) {
+    .my_slider1 .owl-nav{
+        position: absolute;
+        top: -3.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+}
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+    header {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    header::before {
+        content: "";
+        position: absolute;
+        border-radius: 8% ;
+        top: 15%;
+        left: -22%;
+        width: 42%;
+        height: 158%;
+        z-index: -1;
+        background: linear-gradient(67.77deg, #3D8BFD 24.87%, #0D6EFD 70.91%), linear-gradient(0deg, #EDEDED, #EDEDED);
+        transform: rotate(-52deg);
+        transform-origin: top left;
+    }
+    header section:nth-child(2) {
+        background-image: url("../image/Star 1.svg");
+        background-repeat: no-repeat;
+        background-position: 56%;
+    }
+    header section:nth-child(2) .row {
+        background-image: url("../image/Star 5.svg");
+        background-repeat: no-repeat;
+    }
+
+    header section:nth-child(2) .col-12:last-child {
+        background-image: url("../image/Star 5.svg");
+        background-repeat: no-repeat;
+        background-position: 60%;
+    }
+    .my_slider1 .owl-nav{
+        position: absolute;
+        top: 60%;
+        right: -115%;
+    }
+}
+@media only screen and (min-width:1201px) and (max-width: 1400px) {
+    header {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    header::before {
+        content: "";
+        position: absolute;
+        border-radius: 8% ;
+        top: 50%;
+        left: -25%;
+        width: 53%;
+        height: 109%;
+        z-index: -1;
+        background: linear-gradient(67.77deg, #3D8BFD 24.87%, #0D6EFD 70.91%), linear-gradient(0deg, #EDEDED, #EDEDED);
+        transform: rotate(-52deg);
+        transform-origin: top left;
+    }
+    header section:nth-child(2) {
+        background-image: url("../image/Star 1.svg");
+        background-repeat: no-repeat;
+        background-position: 56%;
+    }
+    header section:nth-child(2) .row {
+        background-image: url("../image/Star 5.svg");
+        background-repeat: no-repeat;
+    }
+
+    header section:nth-child(2) .col-12:last-child {
+        background-image: url("../image/Star 5.svg");
+        background-repeat: no-repeat;
+        background-position: 60%;
+    }
+    .my_slider1 .owl-nav{
+        position: absolute;
+
+        top: 60%;
+        right: -112%;
+    }
+}
+@media only screen and (min-width:1401px) and (max-width: 1600px) {
+    header {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    header::before {
+        content: "";
+        position: absolute;
+        border-radius: 8% ;
+        top: 50%;
+        left: -25%;
+        width: 53%;
+        height: 123%;
+        z-index: -1;
+        background: linear-gradient(67.77deg, #3D8BFD 24.87%, #0D6EFD 70.91%), linear-gradient(0deg, #EDEDED, #EDEDED);
+        transform: rotate(-52deg);
+        transform-origin: top left;
+    }
+    header section:nth-child(2) {
+        background-image: url("../image/Star 1.svg");
+        background-repeat: no-repeat;
+        background-position: 56%;
+    }
+    header section:nth-child(2) .row {
+        background-image: url("../image/Star 5.svg");
+        background-repeat: no-repeat;
+    }
+
+    header section:nth-child(2) .col-12:last-child {
+        background-image: url("../image/Star 5.svg");
+        background-repeat: no-repeat;
+        background-position: 60%;
+    }
+    .my_slider1 .owl-nav{
+        position: absolute;
+        top: 60%;
+        right: -110%;
+    }
+}
+@media only screen and (min-width:1601px) and (max-width: 1800px) {
+    header {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    header::before {
+        content: "";
+        position: absolute;
+        border-radius: 8% ;
+        top: 50%;
+        left: -25%;
+        width: 53%;
+        height: 123%;
+        z-index: -1;
+        background: linear-gradient(67.77deg, #3D8BFD 24.87%, #0D6EFD 70.91%), linear-gradient(0deg, #EDEDED, #EDEDED);
+        transform: rotate(-52deg);
+        transform-origin: top left;
+    }
+    header section:nth-child(2) {
+        background-image: url("../image/Star 1.svg");
+        background-repeat: no-repeat;
+        background-position: 56%;
+    }
+    header section:nth-child(2) .row {
+        background-image: url("../image/Star 5.svg");
+        background-repeat: no-repeat;
+    }
+
+    header section:nth-child(2) .col-12:last-child {
+        background-image: url("../image/Star 5.svg");
+        background-repeat: no-repeat;
+        background-position: 60%;
+    }
+    .my_slider1 .owl-nav{
+        position: absolute;
+        /*transform: translateX(-50%);*/
+        top: 60%;
+        right: -108%;
+    }
+}
+@media only screen and (min-width:1801px)  {
+    header {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    header::before {
+        content: "";
+        position: absolute;
+        border-radius: 8% ;
+        top: 0%;
+        left: -19%;
+        width: 35%;
+        height: 180%;
+        z-index: -1;
+        background: linear-gradient(67.77deg, #3D8BFD 24.87%, #0D6EFD 70.91%), linear-gradient(0deg, #EDEDED, #EDEDED);
+        transform: rotate(-52deg);
+        transform-origin: top left;
+    }
+    header section:nth-child(2) {
+        background-image: url("../image/Star 1.svg");
+        background-repeat: no-repeat;
+        background-position: 56%;
+    }
+    header section:nth-child(2) .row {
+        background-image: url("../image/Star 5.svg");
+        background-repeat: no-repeat;
+    }
+
+    header section:nth-child(2) .col-12:last-child {
+        background-image: url("../image/Star 5.svg");
+        background-repeat: no-repeat;
+        background-position: 60%;
+    }
+    .my_slider1 .owl-nav{
+        position: absolute;
+        /*transform: translateX(-50%);*/
+        top: 60%;
+        right: -110%;
+    }
+}
